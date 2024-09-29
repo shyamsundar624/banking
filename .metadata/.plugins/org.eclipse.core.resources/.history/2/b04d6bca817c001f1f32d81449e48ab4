@@ -1,0 +1,12 @@
+package com.banking.shyam.mapper;
+
+import com.banking.shyam.dto.AccountDto;
+import com.banking.shyam.entity.Account;
+
+public class AccountMapper {
+
+	public static Account(AccountDto accountDto) {
+		Account account=new Account(accountDto.getId(),accountDto.getAccountHolderName(),accountDto.getBalance());
+		return account;
+	}
+}

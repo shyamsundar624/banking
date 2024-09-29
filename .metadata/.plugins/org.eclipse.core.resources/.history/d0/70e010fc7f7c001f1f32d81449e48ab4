@@ -1,0 +1,13 @@
+package com.banking.shyam.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="accounts")
+public class Account {
+
+	private Long id;
+	private String accountHolderName;
+	private double balance;
+}

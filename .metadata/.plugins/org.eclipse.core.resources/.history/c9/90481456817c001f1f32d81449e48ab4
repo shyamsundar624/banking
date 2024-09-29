@@ -1,0 +1,10 @@
+package com.banking.shyam.service;
+
+import com.banking.shyam.entity.Account;
+
+public interface AccountService {
+
+	Account createAccount(Account account);
+	
+	
+}

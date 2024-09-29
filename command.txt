@@ -1,0 +1,18 @@
+ng new bankingFrontend --no-standalone
+
+
+ng g c components/account-list --skip-tests
+
+
+ng g class entity/account
+
+
+ng g s services/account
+
+ng g c components/create-account
+
+ng g c components/deposit --skip-tests
+
+ng g c components/withdraw --skip-tests
+
+ng g c components/details --skip-tests

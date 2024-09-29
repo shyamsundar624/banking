@@ -1,0 +1,10 @@
+package com.banking.shyam.service;
+
+import com.banking.shyam.dto.AccountDto;
+
+public interface AccountService {
+
+	AccountDto createAccount(AccountDto account);
+	
+	AccountDto getAccountById(Long id);
+}
